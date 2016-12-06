@@ -3,6 +3,7 @@ const usersRouter= require('express').Router();
 
 
 const getAllUsers = (req,res)=>{
+    console.log('all users console.log')
     res.send('getting all users')
 }
 //
@@ -20,3 +21,5 @@ usersRouter.route('/')
 //
 // usersRouter.route('/:id')
 //     .get(getUser)
+
+module.exports = usersRouter;

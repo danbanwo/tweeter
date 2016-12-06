@@ -10,14 +10,15 @@ const sequelizeConnection = require('./db');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //listen on port 8888
-app.listen('9999', () => console.log('Listening on port 9999'));
-
+app.listen('3000', () => console.log('Listening on port 3000'));
+app.use(express.static(path.join(__dirname, '/front/App.css')));
 app.use(express.static(path.join(__dirname, '/front/bundle')));
+
 //////////
 // YOUR CODE HERE:
 //////////
 app.use('/api/tweets', require('./routes/index').tweetsRouter);
-app.use('/api/users/', require('./routes/index').usersRouter)
+app.use('/api/users', require('./routes/index').usersRouter)
 
 app.get('/*', (req, res) => {
     res.sendFile(path.join(__dirname, '/front/index.html'));

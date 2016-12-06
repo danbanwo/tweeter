@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 // import Navbar from './components/navbar';
 
 const App = ()=>(
-    <div>
-        <h1>Hello</h1>
+    <div className="tweet">
+        <h1>Hello tweeter</h1>
     </div>
 
 )
