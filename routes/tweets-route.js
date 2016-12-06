@@ -5,19 +5,19 @@ const tweetsRouter= require('express').Router();
 const getAllTweets = (req,res)=>{
     res.send('getting all tweets')
 }
-// const getTweet = (req,res)=>{
-//     res.send('getting one tweet')
-// }
-//
-// const createTweet = (req,res)=>{
-//     res.send('creating one tweet')
-// }
+const getTweet = (req,res)=>{
+    res.send('getting one tweet')
+}
+
+const createTweet = (req,res)=>{
+    res.send('creating one tweet')
+}
 
 tweetsRouter.route('/')
     .get(getAllTweets)
-    // .post(createTweet)
+    .post(createTweet)
 
-// tweetsRouter.route('/:id')
-//     .get(getTweet)
+tweetsRouter.route('/:id')
+    .get(getTweet)
 
 module.exports = tweetsRouter;
