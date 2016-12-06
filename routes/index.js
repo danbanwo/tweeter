@@ -1,11 +1,8 @@
-const artistRouter = require('./artist-route');
-const genreRouter = require('./genre-route');
-const playlistRouter = require('./playlist-route');
-const songRouter = require('./song-route');
+const tweetsRouter = require('./tweets-route');
+const usersRouter = require('./users-route');
+
 
 module.exports = {
-    artistRouter: artistRouter,
-    genreRouter: genreRouter,
-    playlistRouter: playlistRouter,
-    songRouter: songRouter
-}
+    tweetsRouter: tweetsRouter,
+    usersRouter: usersRouter
+};

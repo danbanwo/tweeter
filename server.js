@@ -16,8 +16,8 @@ app.use(express.static(path.join(__dirname, '/front/bundle')));
 //////////
 // YOUR CODE HERE:
 //////////
-app.use('/api/tweets', require('./routes/index').homeRouter);
-
+app.use('/api/tweets', require('./routes/index').tweetsRouter);
+app.use('/api/users/', require('./routes/index').usersRouter)
 
 app.get('/*', (req, res) => {
     res.sendFile(path.join(__dirname, '/front/index.html'));
