@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Songs from './components/songs';
+// import Navbar from './components/navbar';
 
 const App = ()=>(
     <div>
         <h1>Hello</h1>
-        <Songs/>
     </div>
 
 )
