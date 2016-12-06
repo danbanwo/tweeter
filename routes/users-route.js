@@ -20,3 +20,5 @@ usersRouter.route('/')
 //
 // usersRouter.route('/:id')
 //     .get(getUser)
+
+module.exports = usersRouter;

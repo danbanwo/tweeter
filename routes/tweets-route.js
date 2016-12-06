@@ -19,3 +19,5 @@ tweetsRouter.route('/')
 
 // tweetsRouter.route('/:id')
 //     .get(getTweet)
+
+module.exports = tweetsRouter;
