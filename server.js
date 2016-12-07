@@ -10,7 +10,7 @@ const sequelizeConnection = require('./db');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //listen on port 8888
-app.listen('3000', () => console.log('Listening on port 3000'));
+app.listen('5000', () => console.log('Listening on port 5000'));
 app.use(express.static(path.join(__dirname, '/front/App.css')));
 app.use(express.static(path.join(__dirname, '/front/bundle')));
 

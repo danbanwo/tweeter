@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
-// import Navbar from './components/navbar';
+var $ = require("jquery");
+
+// IMPORT ALL THE COMPONENTS
+import Header from './components/header.js';
+import Navbar from './components/navbar.jsx';
 
 const App = ()=>(
     <div className="tweet">
-        <h1>Hello tweeter</h1>
+        <Header />
+        <Navbar />        
     </div>
 
 )
