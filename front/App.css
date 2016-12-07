@@ -1,7 +1,220 @@
-body {
-    color: #ff497e;
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	height: 2000px;
+	background-color: #E5E4E2;
 }
 
 .tweet {
     color: blue;
 }
+
+/* ================================= HEADER CSS ================================== */
+
+.siteHeader {
+	width: auto;
+	height: auto;
+	background-color: #F62817;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+/*	background-image: url(http://4vector.com/i/free-vector-black-bird-clip-art_118335_Black_Bird_clip_art_hight.png);
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: right top;*/
+}
+
+#logo {
+	font-size: 45px;
+	color: white;
+	float: left;
+	display: inline-block;
+}
+
+#headertext {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#signup {
+	width: 120px;
+	height: 40px;
+	border: 1px solid white;
+	background-color: #E41B17;
+	border-radius: 5px;
+	float: right;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	color: white;	
+	transition: 0.4s;
+	margin-left: 5px;
+}
+
+#signup:hover {
+	background-color: white;
+	color: #F62817;
+	transition: 0.4s;
+}
+
+#login {
+	width: 120px;
+	height: 40px;
+	border: 1px solid white;
+	background-color: #F62817;
+	border-radius: 5px;
+	float: right;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	color: white;	
+	transition: 0.3s;
+	margin-right: 5px; 
+}
+
+#login:hover {
+	background-color: white;
+	color: #F62817;
+	transition: 0.3s;
+}
+
+#searchicon {
+	margin-top: 1px;
+}
+
+/* ______________________ MEDIA QUERY FOR THE HEADER ___________________________ */
+
+@media screen and (max-width: 767px) {
+
+/*	#logo {
+		margin-left: 50%;	
+	}
+
+	#headertext {
+		margin-left: 10%;
+	}*/
+
+	#signup {
+		margin-right: 10%;
+	}
+
+	#login {
+		margin-left: 10%;
+	}
+
+	.siteHeader {
+		text-align: center;
+	}
+}
+
+/* ================================= NAVBAR CSS ================================== */
+
+/*.navi {
+	width: auto;
+	height: 60px;
+	box-shadow: 0px 3px 3px #D1D0CE;
+}
+*/
+/* ===================================== RESPONSIVE NAVBAR CONTENT ================================================ */
+
+nav ul {
+	background-color: white;
+	overflow: hidden;
+	color: grey;
+	padding: 0;
+	text-align: center;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+	box-shadow: 0px 3px 3px silver;
+	border: none;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+	font-size: 18px;
+	height: 60px;
+	width: 150px;
+	border-left: .5px solid silver;
+	border-right: .5px solid silver;
+	border-bottom: .5px solid silver;
+	margin-bottom: -1px;
+	margin-left: 0px;
+	margin-right: -1px;
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	font-weight: lighter;
+}
+
+nav ul li:hover {
+	border-bottom: 5px solid #F62817;
+}
+
+#ham {
+	color: white;
+	float: right;
+	font-size: 25px;
+}
+
+.handle {
+	width: auto;
+	background-color: #848482;
+	box-sizing: border-box;
+	cursor: pointer;
+	height: 45px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+	nav ul {
+		max-height: 0px;
+	}
+
+	.showing {
+		max-height: 20em;
+	}
+
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+		text-align: left;
+	}
+
+
+	.handle {
+		display: block;
+		margin-top: -10px;
+	}
+}
+
+
+
+
+/* ===================================== END RESPONSIVE NAVBAR CONTENT ================================================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
