@@ -12,7 +12,7 @@ const Header = () => (
 	    	}
 			  <div className="col-md-4">
 
-		      		<span className="fa fa-user-circle-o" aria-hidden="true" id="logo"></span>
+		      		<span className="fa fa-diamond" aria-hidden="true" id="logo"></span>
 
 			  </div>
 			  
