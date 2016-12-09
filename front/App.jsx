@@ -6,11 +6,15 @@ var $ = require("jquery");
 // IMPORT ALL THE COMPONENTS
 import Header from './components/header.js';
 import Navbar from './components/navbar.jsx';
+import Home from './components/homebody.jsx'
+import Footer from './components/footer.jsx'
 
 const App = ()=>(
     <div className="tweet">
         <Header />
-        <Navbar />        
+        <Navbar />
+        <Home />  
+        <Footer />  
     </div>
 
 )
