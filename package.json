@@ -1,5 +1,5 @@
 {
-  "name": "music-api",
+  "name": "tweeter",
   "version": "1.0.0",
   "description": "Create an api with the following endpoints:",
   "main": "seed.js",
