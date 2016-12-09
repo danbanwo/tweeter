@@ -2,8 +2,6 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
-	height: 2000px;
-	background-color: #E5E4E2;
 }
 
 .tweet {
@@ -74,6 +72,8 @@ html, body {
 	transition: 0.3s;
 	margin-right: 5px; 
 }
+
+button:focus {outline: none;}
 
 #login:hover {
 	background-color: white;
@@ -161,6 +161,7 @@ nav ul li:hover {
 	color: white;
 	float: right;
 	font-size: 25px;
+	margin-bottom: 10px;
 }
 
 .handle {
@@ -168,7 +169,7 @@ nav ul li:hover {
 	background-color: #848482;
 	box-sizing: border-box;
 	cursor: pointer;
-	height: 45px;
+	height: 50px;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -199,15 +200,214 @@ nav ul li:hover {
 	}
 }
 
-
-
-
 /* ===================================== END RESPONSIVE NAVBAR CONTENT ================================================ */
 
+/*-------------- HOME PAGE ------------------ */
 
+.home {
+	height: auto;
+	background-color: #E5E4E2;
+	margin-top: -7px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 
+/*-------------- FOOTER ------------------ */
 
+.footer {
+	width: auto;
+	height: 80px;
+	background-color: #848482;
+	margin-top: -40px;
+}
 
+.box {
+	width: 100%;
+	height: 300px;
+	border: 1px solid silver;
+	border-radius: 5px;
+	background-color: white;
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.picdiv {
+	width: auto;
+	height: 60%;
+	background-image: url(http://www.gannett-cdn.com/-mm-/324661c7c44fecb919f261908ca611ef4164c88a/c=204-0-3996-2851&r=x404&c=534x401/local/-/media/2016/12/05/USATODAY/USATODAY/636165343642587459-AFP-AFP-IJ4VK-87036932.JPG);
+	background-size: 100%;
+}
+
+.picdivtwo {
+	width: auto;
+	height: 60%;
+	background-image: url(http://static6.businessinsider.com/image/51deda14ecad04c317000006/tom-brady-leaves-practice-with-a-possible-knee-injury.jpg);
+	background-size: 100%;
+}
+
+.picdivthree {
+	width: auto;
+	height: 60%;
+	background-image: url(http://www.billboard.com/files/media/kanye-west-june-2016-performance-billboard-1548.jpg);
+	background-size: 100%;
+}
+
+.boxheading {
+	width: auto;
+	height: 100px;
+	background-color: white;
+	color: black;
+	padding: 20px;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+/* MEDIA QUERY FOR THE BOXES ON THE HOME PAGE */
+
+@media screen and (max-width: 767px) {
+
+	.box {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.boxheading {
+		overflow: hidden;
+	}
+
+	#logo {
+		margin-left: 45%;
+		display: block;
+	}
+
+	.siteHeader {
+		text-align: center;
+	}
+
+	#headertext {
+		display: block;
+	}
+
+}
+
+#signupform {
+	background-color: #F62817;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 40px;
+}
+
+#signintext {
+	font-size: 18px;
+}
+
+.enteremail {
+	width: 100%;
+	height: 25px;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+	text-align: left;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+.enterpassword {
+	width: 100%;
+	height: 25px;
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+	text-align: left;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.remforgot {
+	display: inline-block;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 12px;	
+}
+
+#rem {
+	float: left;
+}
+
+#pwd {
+	float: right;
+}
+
+input:focus {outline: none;}
+
+.submitlogin {
+	width: 100%;
+	height: 40px;
+	border: 1px solid white;
+	background-color: #E41B17;
+	border-radius: 5px;
+	float: right;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	color: white;	
+	transition: 0.4s;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+
+.submitlogin:hover {
+	background-color: white;
+	color: #F62817;
+	transition: 0.4s;
+}
+
+.featuredPosts {
+	width: auto;
+	height: 400px;
+	background-color: #E5E4E2;
+}
+
+#featuredhr {
+	width: 100%;
+	border: .5px solid silver;
+	float: left;
+	display: inline-block;
+	margin-top: -63px;
+	border-top-color: #E5E4E2;
+	border-left-color: #E5E4E2;
+	border-right-color: #E5E4E2;
+}
+
+#featuredHeading {
+	display: inline-block;
+	color: black;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+	margin-bottom: 50px;	
+}
+
+#greycover {
+	background-color: #E5E4E2;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#featuredboxes {
+	margin-top: -330px;
+}
+
+@media screen and (max-width: 800px) {
+
+	#signupform {
+		margin-bottom: 40px;	
+	}
+
+}
 
 
 
