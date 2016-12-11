@@ -20,9 +20,7 @@ const Header = () => (
 	        	// THE MIDDLE QUOTE
 	        }
 			  <div className="col-md-4">
-
 	        		<center><h1 id="headertext">Whats cooking?</h1></center>
-
 			  </div>
 			  
 			{
