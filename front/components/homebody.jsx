@@ -141,21 +141,16 @@ const Home = () => (
 				  </div>
 
 				  <div className="col-md-3">
-				  	  <div className="box" id="signupform">
+				 		<div className="box">
 
-				  	  <center><p id="signintext"><strong>Sign into your account:</strong></p></center>
+				  	  	<div className="boxheading">
+					  	  	<p><strong>How Kanye West’s Issues Have Caused Strain on His Marriage to Kim Kardashian</strong></p>
+				  	  	</div>
 
-				  	  <center>
-					  	  <form>
-					  	  	<input type='text' placeholder='Enter your E-Mail...' className="enteremail" />
-					  	  	<input type='text' placeholder='Password' className="enterpassword" />
-					  	  	<p className="remforgot" id="rem">Remember me</p>
-					  	  	<p className="remforgot" id="pwd">Forgot Password?</p>
-
-					  	  	<button className="submitlogin">Submit</button>
-
-					  	  </form>
-				  	  </center>
+				  	  	<a href="http://people.com/celebrity/kanye-west-issues-caused-strain-on-marriage-kim-kardashian/" target="_blank">
+					  	  	<div className="picdivthree">
+					  	  	</div>
+				  	  	</a>
 
 	       			  </div>
 				  </div>
