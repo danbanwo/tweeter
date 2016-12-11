@@ -271,6 +271,34 @@ nav ul li:hover {
 	background-size: 100%;
 }
 
+.picdivmonkey {
+	width: auto;
+	height: 60%;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/ce/Gibraltar_Barbary_Macaque.jpg);
+	background-size: 100%;
+}
+
+.picdivpatti {
+	width: auto;
+	height: 60%;
+	background-image: url(http://theredlist.com/media/database/muses/icon/iconic_women/1970/patti-smith/004-patti-smith-theredlist.jpg);
+	background-size: 100%;
+}
+
+.picdivmars {
+	width: auto;
+	height: 60%;
+	background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/pia05490_hiresb.jpg);
+	background-size: 100%;
+}
+
+.picdivhealth {
+	width: auto;
+	height: 60%;
+	background-image: url(http://www.vdtcpa.com/wp-content/uploads/2014/01/healthcare.jpg);
+	background-size: 100%;
+}
+
 .boxheading {
 	width: auto;
 	height: 100px;
